@@ -18,15 +18,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Picture" textLabel="aex-0J-VnP" style="IBUITableViewCellStyleDefault" id="5o6-JZ-h5y">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Picture" textLabel="aex-0J-VnP" style="IBUITableViewCellStyleDefault" id="5o6-JZ-h5y">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5o6-JZ-h5y" id="ufU-WC-45n">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aex-0J-VnP">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -46,6 +46,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vGI-tw-H9H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1074.4000000000001" y="237.93103448275863"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="5mO-Gh-jmF">
+            <objects>
+                <viewController storyboardIdentifier="Detail" id="zrc-g2-IjQ" customClass="DetailViewController" customModule="Project_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="apm-qX-eTv"/>
+                        <viewControllerLayoutGuide type="bottom" id="cv1-jk-kx6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Le2-hI-i3R">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ByN-QW-htG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ByN-QW-htG" firstAttribute="top" secondItem="Le2-hI-i3R" secondAttribute="top" id="97t-rp-OW1"/>
+                            <constraint firstItem="ByN-QW-htG" firstAttribute="bottom" secondItem="cv1-jk-kx6" secondAttribute="top" id="PcG-62-I4y"/>
+                            <constraint firstItem="ByN-QW-htG" firstAttribute="leading" secondItem="Le2-hI-i3R" secondAttribute="leading" id="gLP-34-wgn"/>
+                            <constraint firstAttribute="trailing" secondItem="ByN-QW-htG" secondAttribute="trailing" id="okT-2v-hKV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="ByN-QW-htG" id="yRO-i7-A1O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mFn-ZA-sFe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1813.5999999999999" y="237.93103448275863"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="izW-ga-Lks">
