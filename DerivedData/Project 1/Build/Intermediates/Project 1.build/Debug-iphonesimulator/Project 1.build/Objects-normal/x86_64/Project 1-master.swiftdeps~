@@ -1,7 +1,7 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "4f88b7a62457b2a11c5ec00c7dff51e8"
-build_time: [557724782, 713151000]
+build_time: [557725004, 680173000]
 inputs:
-  "/Users/chrisconner/Desktop/Project 1/Project 1/DetailViewController.swift": [557724782, 0]
-  "/Users/chrisconner/Desktop/Project 1/Project 1/ViewController.swift": [557724399, 0]
+  "/Users/chrisconner/Desktop/Project 1/Project 1/DetailViewController.swift": [557725004, 0]
+  "/Users/chrisconner/Desktop/Project 1/Project 1/ViewController.swift": [557725004, 0]
   "/Users/chrisconner/Desktop/Project 1/Project 1/AppDelegate.swift": [557682683, 0]
